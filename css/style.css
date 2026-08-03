@@ -1542,6 +1542,24 @@ background:var(--primary);
 
 }
 
+.prev-volume{
+
+    margin-right:auto;
+
+}
+
+.all-volume{
+
+    margin:0 auto;
+
+}
+
+.next-volume{
+
+    margin-left:auto;
+
+}
+
 
 .volume-navigation a{
 
@@ -1571,7 +1589,15 @@ background:var(--primary);
     color:#fff;
 
 }
+.all-volume{
 
+    background:#f8f5f1 !important;
+
+    color:var(--secondary) !important;
+
+    border:1px solid var(--border) !important;
+
+}
 
 .volume-navigation .disabled{
 
@@ -1630,7 +1656,11 @@ font-size:22px;
 
 .volume-navigation .container{
 
-flex-direction:column;
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:stretch;
 
 }
 
