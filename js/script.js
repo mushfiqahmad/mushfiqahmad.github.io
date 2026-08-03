@@ -52,7 +52,7 @@ document.querySelectorAll(".copy-btn").forEach(button => {
 
 let text = "";
 
-item.querySelectorAll("p, ol").forEach(element => {
+item.querySelectorAll("p, ul, ol, blockquote").forEach(element => {
 
     text += element.innerText + "\n\n";
 
