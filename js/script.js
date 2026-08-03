@@ -48,8 +48,15 @@ document.querySelectorAll(".copy-btn").forEach(button => {
         // Malfuzat Number
         const number = item.querySelector("h3").textContent.replace("🎤", "").trim();
 
-        // Main Text
-        const text = item.querySelector("p").innerText;
+        // Main Text (সব Paragraph + List)
+
+let text = "";
+
+item.querySelectorAll("p, ol").forEach(element => {
+
+    text += element.innerText + "\n\n";
+
+});
 
         // ID
         const id = item.id;
