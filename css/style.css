@@ -1807,3 +1807,107 @@ box-shadow:0 14px 35px rgba(0,0,0,.35);
     text-align:center;
 
 }
+/* =========================================
+   BOYAN PAGE (NEW DESIGN)
+========================================= */
+
+.language-grid{
+    max-width:1050px;
+    margin:45px auto 20px;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:18px;
+}
+
+.language-card{
+    background:#fff;
+    border:1px solid #e8ddd1;
+    border-radius:16px;
+    padding:22px 16px;
+    text-align:center;
+    transition:.3s;
+    text-decoration:none;
+    color:#2f1d1d;
+    box-shadow:0 8px 22px rgba(0,0,0,.06);
+}
+
+.language-card:hover{
+    transform:translateY(-4px);
+    box-shadow:0 12px 28px rgba(0,0,0,.10);
+}
+
+.language-card .icon{
+    font-size:34px;
+    margin-bottom:12px;
+}
+
+.language-card h3{
+    font-size:24px;
+    margin:0 0 10px;
+    line-height:1.25;
+}
+
+.language-card p{
+    font-size:15px;
+    margin:6px 0;
+}
+
+.language-btn{
+    display:inline-block;
+    margin-top:16px;
+    padding:10px 26px;
+    border-radius:30px;
+    background:#a67845;
+    color:#fff;
+    text-decoration:none;
+    font-size:15px;
+    font-weight:600;
+}
+
+.language-btn:hover{
+    background:#8c6338;
+}
+
+@media(max-width:992px){
+
+    .language-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+}
+
+@media(max-width:600px){
+
+    .language-grid{
+        grid-template-columns:1fr;
+    }
+
+}
+.boyan-title{
+
+    text-align:center;
+
+    margin-bottom:45px;
+
+}
+
+.boyan-title p{
+
+    max-width:700px;
+
+    margin:18px auto 0;
+
+    text-align:center;
+
+    font-size:22px;
+
+    line-height:1.7;
+
+}
+.boyan-title h1{
+
+    font-size:64px;
+
+    margin-bottom:18px;
+
+}
