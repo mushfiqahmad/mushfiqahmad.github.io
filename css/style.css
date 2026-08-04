@@ -1773,3 +1773,98 @@ box-shadow:0 14px 35px rgba(0,0,0,.35);
     margin-bottom:0px;
 
 }
+/* ==========================================
+   BOYAN INDEX
+========================================== */
+
+.boyan-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+    gap:30px;
+
+    margin:50px 0;
+
+}
+
+.boyan-card{
+
+    background:#ffffff;
+
+    border:1px solid #e6e6e6;
+
+    border-radius:12px;
+
+    padding:35px 25px;
+
+    text-align:center;
+
+    transition:.3s;
+
+    box-shadow:0 4px 12px rgba(0,0,0,.06);
+
+}
+
+.boyan-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 10px 28px rgba(0,0,0,.12);
+
+}
+
+.boyan-icon{
+
+    font-size:42px;
+
+    margin-bottom:18px;
+
+}
+
+.boyan-card h2{
+
+    font-size:24px;
+
+    margin-bottom:12px;
+
+    color:#123c63;
+
+}
+
+.boyan-card p{
+
+    color:#666;
+
+    font-size:15px;
+
+    margin-bottom:22px;
+
+}
+
+.btn-primary{
+
+    display:inline-block;
+
+    padding:12px 28px;
+
+    border-radius:8px;
+
+    text-decoration:none;
+
+    background:#123c63;
+
+    color:#ffffff;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.btn-primary:hover{
+
+    background:#0b2d4c;
+
+}
