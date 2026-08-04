@@ -1062,9 +1062,15 @@ line-height:48px;
 
     display:grid;
 
-    grid-template-columns:repeat(4,1fr);
+    grid-template-columns:repeat(2,1fr);
 
-    gap:20px;
+    gap:35px;
+
+    max-width:900px;
+
+    margin:0 auto;
+
+    align-items:stretch;
 
 }
 
@@ -1082,6 +1088,8 @@ line-height:48px;
     box-shadow:var(--shadow);
 
     border:1px solid var(--border);
+
+    height:100%;
 
 }
 .contact-card h2{
