@@ -1,0 +1,270 @@
+/* ==========================================
+   AUDIO PAGES
+   Mushfiq Ahmad [R.A.]
+========================================== */
+
+.audio-page-header{
+
+    padding:60px 20px 40px;
+
+    text-align:center;
+
+}
+
+.audio-page-header h1{
+
+    font-size:52px;
+
+    color:#4d3319;
+
+    margin-bottom:15px;
+
+}
+
+.audio-page-header p{
+
+    max-width:700px;
+
+    margin:0 auto;
+
+    font-size:20px;
+
+    line-height:1.7;
+
+    color:#666;
+
+}
+
+.audio-count{
+
+    display:inline-block;
+
+    margin-top:20px;
+
+    padding:8px 18px;
+
+    background:#f3ede6;
+
+    border-radius:30px;
+
+    font-weight:600;
+
+    color:#6b4b2a;
+
+}
+
+
+
+.audio-section{
+
+    padding:10px 20px 70px;
+
+}
+
+
+
+.audio-grid{
+
+    max-width:1150px;
+
+    margin:0 auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:28px;
+
+}
+
+
+
+.audio-card{
+
+    background:#fff;
+
+    border:1px solid #e6ddd3;
+
+    border-radius:18px;
+
+    padding:24px;
+
+    text-align:center;
+
+    box-shadow:0 8px 22px rgba(0,0,0,.06);
+
+    transition:.25s;
+
+}
+
+.audio-card:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 12px 28px rgba(0,0,0,.10);
+
+}
+
+
+
+.audio-number{
+
+    font-size:30px;
+
+    font-weight:700;
+
+    color:#5b3c1d;
+
+    margin-bottom:18px;
+
+}
+
+
+
+.audio-card audio{
+
+    width:100%;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.download-btn{
+
+    display:inline-block;
+
+    padding:10px 24px;
+
+    border-radius:30px;
+
+    background:#8b6b4a;
+
+    color:#fff;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.25s;
+
+}
+
+.download-btn:hover{
+
+    background:#6d4f31;
+
+}
+
+
+
+.audio-navigation{
+
+    padding:10px 20px 60px;
+
+}
+
+
+
+.audio-nav{
+
+    max-width:900px;
+
+    margin:0 auto;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+
+
+.nav-btn{
+
+    padding:12px 22px;
+
+    border-radius:30px;
+
+    background:#f3ede6;
+
+    color:#5b3c1d;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.25s;
+
+}
+
+.nav-btn:hover{
+
+    background:#8b6b4a;
+
+    color:#fff;
+
+}
+
+
+
+.nav-center{
+
+    background:#8b6b4a;
+
+    color:#fff;
+
+}
+
+
+
+@media (max-width:992px){
+
+    .audio-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+
+
+@media (max-width:768px){
+
+    .audio-page-header h1{
+
+        font-size:40px;
+
+    }
+
+    .audio-page-header p{
+
+        font-size:18px;
+
+    }
+
+    .audio-nav{
+
+        flex-direction:column;
+
+    }
+
+}
+
+
+
+@media (max-width:600px){
+
+    .audio-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
